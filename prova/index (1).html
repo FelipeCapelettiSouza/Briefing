@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriPrime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="creatina.jpg" alt="Creatina" class="header-image">
+            <h1>NutriPrime</h1>
+        </div>
+    </header>
+
+    <nav class="navbar" aria-label="Menu principal">
+        <ul>
+            <li><a href="#home" aria-label="Ir para Home">Home</a></li>
+            <li><a href="#services" aria-label="Ir para Produtos">Produtos</a></li>
+            <li><a href="#about" aria-label="Ir para Sobre">Sobre</a></li>
+            <li><a href="#contact" aria-label="Ir para Contato">Contato</a></li>
+            <li><a href="#faq" aria-label="Ir para FAQ">FAQ</a></li>
+            <li><a href="#buying-guide" aria-label="Ir para Guias de Compra">Guias de Compra</a></li>
+            <li><a href="#calculator" aria-label="Ir para Calculadora de Suplementos">Calculadora</a></li>
+            <li><a href="#social-media" aria-label="Ir para Redes Sociais">Redes Sociais</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero" aria-label="Seção Hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>Bem-vindo à NutriPrime</h2>
+                        <p>Descubra a melhor forma de cuidar da sua saúde com nossos planos de nutrição personalizados.</p>
+                        <q> “Eu sou forte e determinado, capaz de alcançar meus objetivos.”</q>
+                        <br>
+                        <a href="#" class="cta-button">Saiba Mais</a>
+                    </div>
+                    <div class="hero-media">
+                        <img src="imagem5.jpg" alt="Imagem de exemplo" class="hero-image">
+                        <br>
+                        <img src="imagem6.jpg" alt="Imagem de exemplo" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title">Nossos Produtos</h2>
+                <div class="service-grid">
+                    <div class="service-item" aria-labelledby="service1-title">
+                        <img src="produto1.jpg" alt="Descrição do Produto 1" class="service-image">
+                        <h3 id="service1-title">Creatina</h3>
+                        <p>Creatina é um suplemento que aumenta a energia e a massa muscular.</p>
+                        <p class="price">R$ 129,90</p>
+                    </div>
+                    <div class="service-item" aria-labelledby="service2-title">
+                        <img src="produto2.jpg" alt="Descrição do Produto 2" class="service-image">
+                        <h3 id="service2-title">Kit de Suplementos</h3>
+                        <p>Um kit de suplementos é um conjunto de produtos nutricionais destinados a melhorar a saúde, desempenho ou recuperação.</p>
+                        <p class="price">R$ 299,90</p>
+                    </div>
+                    <div class="service-item" aria-labelledby="service3-title">
+                        <img src="produto3.jpg" alt="Descrição do Produto 3" class="service-image">
+                        <h3 id="service3-title">Whey Protein</h3>
+                        <p>Whey protein é uma proteína do soro do leite que ajuda na recuperação e crescimento muscular.</p>
+                        <p class="price">R$ 179,90</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="about" class="about" aria-label="Sobre nós">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <br>
+                <p>NutriPrime é o seu destino para suplementos de qualidade superior, projetados para apoiar um estilo de vida saudável e otimizar seu desempenho.
+                   Oferecemos uma vasta gama de produtos nutricionais, desde vitaminas essenciais até fórmulas avançadas para atletas. Nosso compromisso é fornecer
+                   suplementos eficazes e seguros, acompanhados de informações detalhadas para ajudá-lo a tomar decisões informadas. 
+                   Com um atendimento ao cliente dedicado e uma experiência de compra intuitiva, estamos aqui para apoiar sua jornada rumo ao bem-estar completo. 
+                   No NutriPrime, nossa missão é ajudar você a alcançar seu melhor, todos os dias.</p>
+                   <br>
+                <div class="image-gallery">
+                    <img src="imagem1.jpg" alt="Imagem ilustrativa sobre a empresa">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" aria-label="Formulário de contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <form class="contact-form" aria-labelledby="contact-form-title">
+                    <h3 id="contact-form-title">Formulário de Contato</h3>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required aria-describedby="name-help">
+                    <span id="name-help">Digite seu nome completo.</span>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-describedby="email-help">
+                    <span id="email-help">Digite um email válido.</span>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required aria-describedby="message-help"></textarea>
+                    <span id="message-help">Sua mensagem deve ter pelo menos 10 caracteres.</span>
+
+                    <button type="submit" aria-label="Enviar formulário">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq" class="faq" aria-labelledby="faq-title">
+            <div class="container">
+                <h2 id="faq-title">Perguntas Frequentes</h2>
+                <div class="faq-item">
+                    <h3>Quais são os benefícios dos suplementos?</h3>
+                    <p>Os suplementos podem ajudar a preencher lacunas nutricionais, melhorar o desempenho atlético e promover a saúde geral.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Como saber qual suplemento é o melhor para mim?</h3>
+                    <p>Consulte um profissional de saúde para orientação personalizada com base em suas necessidades e objetivos específicos.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Os produtos são seguros?</h3>
+                    <p>Sim, todos os nossos produtos passam por rigorosos testes de qualidade e segurança.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="buying-guide" class="buying-guide" aria-labelledby="buying-guide-title">
+            <div class="container">
+                <h2 id="buying-guide-title">Guias de Compra</h2>
+                <div class="guide-item">
+                    <h3>Guia para Escolher Proteínas em Pó</h3>
+                    <p>Descubra quais tipos de proteínas são melhores para diferentes objetivos, como ganho muscular ou perda de peso.</p>
+                    <a href="#buying-guide" class="read-more">Leia mais</a>
+                </div>
+                <div class="guide-item">
+                    <h3>Comparação de Multivitamínicos</h3>
+                    <p>Veja uma comparação entre diferentes multivitamínicos para encontrar o que melhor atende às suas necessidades.</p>
+                    <a href="#buying-guide" class="read-more">Leia mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="calculator" class="calculator" aria-labelledby="calculator-title">
+            <div class="container">
+                <h2 id="calculator-title">Calculadora de Necessidades Nutricionais</h2>
+                <form class="calculator-form">
+                    <label for="age">Idade:</label>
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="weight">Peso (kg):</label>
+                    <input type="number" id="weight" name="weight" required>
+
+                    <label for="activity">Nível de Atividade:</label>
+                    <select id="activity" name="activity">
+                        <option value="sedentary">Sedentário</option>
+                        <option value="moderate">Moderado</option>
+                        <option value="active">Ativo</option>
+                    </select>
+
+                    <button type="submit">Calcular</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="progress-section" aria-label="Progresso do Projeto">
+            <div class="container">
+                <h2>Progresso do Projeto</h2>
+                <progress value="70" max="100" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</progress>
+            </div>
+        </section>
+
+        <section class="cards" aria-label="Cards de Destaque">
+            <div class="container">
+                <h2>Cards de Destaque</h2>
+                <div class="card-grid">
+                    <div class="card" aria-labelledby="card1-title">
+                        <img src="imagem7.jpg" alt="Imagem do Card 1" class="card-image">
+                        <h3 id="card1-title">Card 1</h3>
+                        <p>Não deixe que a preguiça seja mais forte do que a sua vontade de mudar.</p>
+                    </div>
+                    <div class="card" aria-labelledby="card2-title">
+                        <img src="imagem8.jpg" alt="Imagem do Card 2" class="card-image">
+                        <h3 id="card2-title">Card 2</h3>
+                        <p>Cada segundo de esforço vale a pena. Força!</p>
+                    </div>
+                    <div class="card" aria-labelledby="card3-title">
+                        <img src="imagem9.jpg" alt="Imagem do Card 3" class="card-image">
+                        <h3 id="card3-title">Card 3</h3>
+                        <p>A vida é curta demais para desperdiçar a chance de ser saudável e feliz.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" aria-label="Rodapé">
+        <div class="footer-content">
+            <section class="contact-info">
+                <h3>Contato</h3>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>contato@NutriPrime.com</td>
+                    </tr>
+                    <tr>
+                        <td>Telefone:</td>
+                        <td>(11) 1234-5678</td>
+                    </tr>
+                </table>
+            </section>
+            
+            <section class="site-links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                </ul>
+            </section>
+            
+            <section class="newsletter">
+                <h3>Inscreva-se na NutriPrime</h3>
+                <form>
+                    <input type="email" placeholder="Seu email" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </section>
+            
+            <section class="social-media">
+                <h3>Redes Sociais</h3>
+                <a href="#"><img src="i.jpg" alt="Facebook"></a>
+                <a href="#"><img src="i2.png" alt="Twitter"></a>
+                <a href="#"><img src="i1.jpg" alt="Instagram"></a>
+            </section>
+        </div>
+        <p>&copy; 2024 NutriPrime. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
